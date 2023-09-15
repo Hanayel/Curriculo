@@ -1,0 +1,25 @@
+/* 768px*/
+@media screen and  (max-width: 768px){
+    .container .sonbre-info{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+    }
+}
+    /* mobile 425px*/
+@media screen and  (max-width: 425px){
+.container .Meu-Nome{
+    margin-top: 10%;
+    margin-bottom: 50px;
+    }
+    .container .Meu-Nome h1{
+        font-size: 27px;
+
+        }
+        .container .Meu-Nome h1{
+            font-size: 20px;
+    
+            }
+
+}
