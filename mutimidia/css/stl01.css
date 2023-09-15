@@ -75,34 +75,13 @@ font-size: 20px;
     text-transform: uppercase;
     color: black;
 }
-.container .links-info .info-links .paragrafo{
+.container .links-info .contatos{
     width: 100%;
     min-height: 50px;
-    line-height: 35px;
     margin-bottom: 100px;
+    font-family: 'Dodis', sans-serif;
+    font-style: normal;
+
     
 }
-.container .links-info .info-links .paragrafo .item1{
-    font-family: 'Dodis', sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    text-transform: uppercase;
-    color: black;
 
-}
-
-.container .links-info .info-links .paragrafo .item2{
-    font-family: 'Dodis', sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-    text-transform: uppercase;
-    color: black;
-}
-
-.container .links-info .info-links .paragrafo .item3{
-    font-family: 'Dodis', sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-    text-transform: uppercase;
-    color: black;  
-}
