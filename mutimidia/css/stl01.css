@@ -19,7 +19,7 @@
     font-size: 45px;
     text-transform: uppercase;
     text-align: center;
-    color: rgb(14, 13, 13);
+    color: rgb(255, 255, 255);
 }
 .fill{
     background: linear-gradient(to right, #fa2c06, #0546ff,#8514f5);
@@ -29,9 +29,10 @@
 
 .container .Meu-Nome h2{
     font-family: 'Dosis', sans-serif;
+    color: white;
     font-weight: bold;
-    text-align: center;
     font-size: 30px;
+    text-align: center;
     text-transform: uppercase;
 }
 /* sobre mim*/
@@ -39,6 +40,7 @@
     width: 100%;
     min-height: 100px;
     margin-bottom: 100px;
+    color: white;
 }
 
 .container .sobre-info .divisor {
