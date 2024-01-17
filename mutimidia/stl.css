@@ -13,13 +13,36 @@ html, body{
     font-family: 'Dosis', sans-serif;
     font-style: normal;
 }
-img{
+img {
 width: 20%;
 height: auto;
 margin-left: 0%;
 margin-bottom: 0%;
 }
+.container img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
 
 img, h1, h2 {
     display: inline-block;
+}
+.carrossel{
+    box-shadow: 2px 2px 4px #545454;
+    overflow: hidden;
+    height: 500px;
+    width: 500px;
+}
+
+.container_carrossel{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+.carrossel img {
+    object-fit: cover;
+    height: 500px;
+    width: 500px;
+    border-radius: 0px;
 }
