@@ -1,14 +1,13 @@
-const imgs = document.getElementById("img_carrossel");
-const img = document.querySelectorAll("#img_carrossel img");
 
-let fluxo = 0;
-function carrossel(){
-    fluxo++;
-    if(fluxo > img.length - 1){
-        fluxo = 0;
-    }
+//efeito mouseover
+var lengenda = document.querySelector(".legenda");
+lengenda.addEventListener("mouseover", function () {
+    var email = document.querySelector("#email")
+    email.classList.remove("hide_info")
+});
 
-    imgs.style.transform ='translateX(${-fluxo * 500}px)';
-
-}
-setInterval(carrossel, 1800);
+var lengenda = document.querySelector(".legenda");
+lengenda.addEventListener("mouseout", function () {
+    var email = document.querySelector("#email")
+    email.classList.add("hide_info")
+});
