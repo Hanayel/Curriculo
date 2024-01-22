@@ -109,6 +109,13 @@ svg {
 }
 
 .icon-email{
-  margin-top: -25px;
+  margin-top: -24px;
   margin-left: 650px;
+}
+.efeito-escrita::before{
+    position: absolute;
+    transform: translateY(-50%);
+}
+.efeito-escrita-pronta{
+animation: blinking 1s step-end infinite;
 }
