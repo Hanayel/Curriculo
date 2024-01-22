@@ -6,12 +6,16 @@
     margin-bottom: 100px;
 }
 /*titulo */
+
 .container .Meu-Nome{
     width: 100%;
     min-height: 100px;
     margin-top: 5%;
     margin-bottom: 20px;
 
+}
+.text-sobre{
+    margin-bottom: 30px;
 }
 .container .Meu-Nome h1{
     font-family: 'Dosis', sans-serif;
@@ -36,6 +40,14 @@
     text-transform: uppercase;
 }
 /* sobre mim*/
+.container .projetos-info .divisor{
+  width: 100%;
+  min-height: 2px;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  
+
+}
 .container .sobre-info {
     width: 100%;
     min-height: 100px;
@@ -62,25 +74,27 @@ text-align: justify;
 font-size: 20px;
 }
 
-.container.links-info{
+.container.social-links-info{
     width: 100%;
     min-height: 200px;
     margin-bottom: 100px;
+
 }
-.container .links-info .divisor{
+.container .social-links-info .divisor{
     width: 100%;
     min-height: 2px;
     margin-bottom: 50px;
 }
 
-.container.links-info .divisor{
-    
+.container.social-links-info .divisor{
     margin-top: 5%; 
     font-weight: bold;
     text-transform: uppercase;
   
 }
-.container .links-info .contatos{
+
+
+.container .social-links-info .contatos{
     width: 100%;
     min-height: 50px;
     margin-bottom: 100px;
@@ -89,4 +103,3 @@ font-size: 20px;
 
     
 }
-
